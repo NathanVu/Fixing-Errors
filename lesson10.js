@@ -1,5 +1,5 @@
-//Desired result Print out all names from people array except 
-//the name, (argument) passed into the nameFilter function 
+//Desired result Print out all names from people array except
+//the name, (argument) passed into the nameFilter function
 
 var people = [
     { name: "John", age: 55 },
@@ -9,7 +9,7 @@ var people = [
 
 var nameFilter = function(filteredName) {
     for (var i = 0; i < people.length; i++) {
-        let name = people[i].name
+        let name = people[i].age
         if (people != filteredName) {
             console.log("My Name is " + name)
         }
