@@ -11,10 +11,10 @@ var people = [
     ]
 
 var nameFilter = function(name) {
-    let name = "Eric"
+    let names = people.name
     for (let i = 0; i < people.length; i++) {
         let name = people[i].name
-        if (name != filteredName) {
+        if (name != "Roger") {
             console.log("My Name is " + name)
         }
     }
